@@ -1,0 +1,9 @@
+<resources>
+    <color name="normal_text_color">#2d2d2d</color>
+    <color name="theme_green_color">#96aa39</color>
+    <color name="theme_red_color">#ff1500</color>
+    <color name="theme_grey_color">#e6ebe6</color>
+    <color name="actionbar_text_color">#e6ebe6</color>
+    <color name="drawer_background_color">#ffffff</color>
+    <color name="transparent">#00000000</color>
+</resources>

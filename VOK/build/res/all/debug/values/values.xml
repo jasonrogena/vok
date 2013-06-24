@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="genres">
+        <item>All Genres</item>
+        <item>Action</item>
+        <item>Comedy</item>
+        <item>Drama</item>
+        <item>News</item>
+    </array>
+    <array name="parent_features">
+        <item>Kenyan TV</item>
+        <item>My Programs</item>
+        <item>Channel Schedules</item>
+    </array>
+    <array name="stations">
+        <item>NTV</item>
+        <item>Citizen</item>
+        <item>KTN</item>
+    </array>
+
+    <color name="actionbar_text_color">#e6ebe6</color>
+    <color name="drawer_background_color">#ffffff</color>
+    <color name="left_drawer_background_color">#ffffff</color>
+    <color name="normal_text_color">#2d2d2d</color>
+    <color name="theme_green_color">#96aa39</color>
+    <color name="theme_grey_color">#e6ebe6</color>
+    <color name="theme_red_color">#ff1500</color>
+    <color name="transparent">#00000000</color>
+
+    <dimen name="action_bar_sub_title_text_size">13dp</dimen>
+    <dimen name="action_bar_title_text_size">18dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="divider_height">0.1dp</dimen>
+    <dimen name="left_drawer_width">240dp</dimen>
+
+    <string name="action_refresh">Refresh</string>
+    <string name="action_search">Search</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+    <string name="app_name">VOK</string>
+    <string name="channel_schedules">Channel Schedules</string>
+    <string name="drawer_closed_description">Drawer Closed</string>
+    <string name="drawer_opened_description">Drawer Opened</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="kenyan_tv">Kenyan TV</string>
+    <string name="my_programs">My Programs</string>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="VOKTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/VOKTheme.ActionBar</item>
+        <item name="android:dropDownListViewStyle">@style/VOKTheme.Spinner</item>
+    </style>
+
+    <style name="VOKTheme.ActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@color/theme_green_color</item>
+        <item name="android:backgroundStacked">@color/theme_grey_color</item>
+        <item name="android:backgroundSplit">@color/theme_grey_color</item>
+        <item name="android:textColor">@color/actionbar_text_color</item>
+        <item name="android:titleTextStyle">@style/VOKTheme.ActionBar.Title</item>
+        <item name="android:actionBarTabTextStyle">@style/VOKTheme.ActionBar.Tab</item>
+    </style>
+
+    <style name="VOKTheme.ActionBar.Tab" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/normal_text_color</item>
+    </style>
+
+    <style name="VOKTheme.ActionBar.Title" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/actionbar_text_color</item>
+    </style>
+
+    <style name="VOKTheme.Spinner" parent="@android:style/Widget.Holo.Light.ListView.DropDown">
+        <item name="android:dividerHeight">@dimen/divider_height</item>
+        <item name="android:divider">@color/theme_green_color</item>
+    </style>
+
+</resources>

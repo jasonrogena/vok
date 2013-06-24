@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VOK</string>
+    <string name="kenyan_tv">Kenyan TV</string>
+    <string name="channel_schedules">Channel Schedules</string>
+    <string name="my_programs">My Programs</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_search">Search</string>
+    <string name="action_share">Share</string>
+    <string name="action_refresh">Refresh</string>
+
+    <array name="parent_features">
+        <item>Kenyan TV</item>
+        <item>My Programs</item>
+        <item>Channel Schedules</item>
+    </array>
+    <array name="genres">
+        <item>All Genres</item>
+        <item>Action</item>
+        <item>Comedy</item>
+        <item>Drama</item>
+        <item>News</item>
+    </array>
+    <array name="stations">
+        <item>NTV</item>
+        <item>Citizen</item>
+        <item>KTN</item>
+    </array>
+
+    <string name="drawer_opened_description">Drawer Opened</string>
+    <string name="drawer_closed_description">Drawer Closed</string>
+
+</resources>

@@ -1,0 +1,24 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1372086134000 1344 63139a3bfee6f3aba3d9650ad4644ac40eedb99d /home/jason/android-studio/VOKProject/VOK/build/classes/debug/com/rogena/vok/LandingActivity$1.class
+1371996690000 415 4fe952c57cfe8233f9f60f2bf47d16530abb225a /home/jason/android-studio/VOKProject/VOK/build/classes/debug/com/rogena/vok/frontendRes/FeaturedTabFragment.class
+1372100144000 609 a28ad0c6473753cf6fae84a1a01cee1dd9aa9245 /home/jason/android-studio/VOKProject/VOK/build/classes/debug/com/rogena/vok/R$layout.class
+1371996690000 1136 6a2a87c1fca31568207d771d70d107d61b0ecc8b /home/jason/android-studio/VOKProject/VOK/build/classes/debug/com/rogena/vok/frontendRes/KenyanTVFragment.class
+1372100144000 778 e19fac6fd02ceb52796a29ac85f92de0983ff312 /home/jason/android-studio/VOKProject/VOK/build/classes/debug/com/rogena/vok/R$string.class
+1372100144000 627 b4f5e52cb056c7de542ca22ec732736e2bd89130 /home/jason/android-studio/VOKProject/VOK/build/classes/debug/com/rogena/vok/R$style.class
+1372001175000 328 eb8d7157b711f005f789e36feb07673c15b88942 /home/jason/android-studio/VOKProject/VOK/build/classes/debug/com/rogena/vok/R$attr.class
+1372100144000 392 c260306008258fc467e54d9141545b51e7dc23a5 /home/jason/android-studio/VOKProject/VOK/build/classes/debug/com/rogena/vok/R$menu.class
+1371838901000 484258 bd6479f5dd592790607e0504e66e0f31c2b4d308 /home/jason/android-studio/VOKProject/VOK/libs/android-support-v4.jar
+1372100144000 2034 ef94e915c99b54e08389ef74d75b669d6a3ffa46 /home/jason/android-studio/VOKProject/VOK/build/classes/debug/com/rogena/vok/frontendRes/VOKArrayAdapter.class
+1371996690000 415 ed2118418ef3a09b1338ead22f9b1b717260cc38 /home/jason/android-studio/VOKProject/VOK/build/classes/debug/com/rogena/vok/frontendRes/TrendingTabFragment.class
+1371996690000 427 995126c18c17153d42a796288891a8d683b19041 /home/jason/android-studio/VOKProject/VOK/build/classes/debug/com/rogena/vok/frontendRes/RecommendedTabFragment.class
+1371996690000 337 61c6dd106ed95567751d93242dacc1cbcad62c93 /home/jason/android-studio/VOKProject/VOK/build/classes/debug/com/rogena/vok/BuildConfig.class
+1372100144000 725 0a3fbb5e1e28d70c98a535b18492d6ed0516fa3d /home/jason/android-studio/VOKProject/VOK/build/classes/debug/com/rogena/vok/R.class
+1372100144000 632 81c1109f7f32bb0b3b02f8663dbe804b1dfd6558 /home/jason/android-studio/VOKProject/VOK/build/classes/debug/com/rogena/vok/R$dimen.class
+1371996690000 1144 5fe8c1e3e26d06e268a31a76250aada6a584e791 /home/jason/android-studio/VOKProject/VOK/build/classes/debug/com/rogena/vok/frontendRes/MyProgramsFragment.class
+1372084874000 690 3b8566c4e037d0faf6149b979846946dfab52823 /home/jason/android-studio/VOKProject/VOK/build/classes/debug/com/rogena/vok/R$color.class
+1372100144000 465 c3261ed09cd1e8e402b397a61ddaac5c96fb1fa0 /home/jason/android-studio/VOKProject/VOK/build/classes/debug/com/rogena/vok/R$drawable.class
+1372100144000 673 56b8f493dece69b7b8000f2f2981d65e596fec81 /home/jason/android-studio/VOKProject/VOK/build/classes/debug/com/rogena/vok/R$id.class
+1372086246000 6250 c0015f3e80f51db6d69f5103cc3db6ac84984b9e /home/jason/android-studio/VOKProject/VOK/build/classes/debug/com/rogena/vok/LandingActivity.class
+1372001175000 452 a129cd2e5abc31981541ed7b9f70e5726ad9eb5f /home/jason/android-studio/VOKProject/VOK/build/classes/debug/com/rogena/vok/R$array.class
