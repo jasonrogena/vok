@@ -3,8 +3,8 @@ package com.rogena.vok;
 import android.app.ActionBar;
 import android.content.res.Configuration;
 import android.os.Bundle;
-import android.app.Activity;
 import android.support.v4.app.ActionBarDrawerToggle;
+import android.support.v4.app.FragmentActivity;
 import android.support.v4.widget.DrawerLayout;
 import android.view.KeyEvent;
 import android.view.Menu;
@@ -19,7 +19,7 @@ import com.rogena.vok.frontendRes.KenyanTVFragment;
 import com.rogena.vok.frontendRes.MyProgramsFragment;
 import com.rogena.vok.frontendRes.VOKArrayAdapter;
 
-public class LandingActivity extends Activity implements ListView.OnItemClickListener, ActionBar.OnNavigationListener
+public class LandingActivity extends FragmentActivity implements ListView.OnItemClickListener, ActionBar.OnNavigationListener
 {
     private Menu menu;
     private ListView drawerList;
@@ -159,14 +159,13 @@ public class LandingActivity extends Activity implements ListView.OnItemClickLis
         currentFragment=kenyanTVFragment.NAME;
         genreFilter=new VOKArrayAdapter(this,R.layout.vok_spinner_item,getResources().getStringArray(R.array.genres),currentFragment);
         stationFilter=new VOKArrayAdapter(this,R.layout.vok_spinner_item,getResources().getStringArray(R.array.stations),currentFragment);
-
         if(isReplacing)
         {
-            getFragmentManager().beginTransaction().replace(R.id.fragment_container,kenyanTVFragment).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,kenyanTVFragment).commit();
         }
         else
         {
-            getFragmentManager().beginTransaction().add(R.id.fragment_container,kenyanTVFragment).commit();
+            getSupportFragmentManager().beginTransaction().add(R.id.fragment_container,kenyanTVFragment).commit();
         }
         getActionBar().setListNavigationCallbacks(genreFilter,this);
     }
@@ -180,11 +179,11 @@ public class LandingActivity extends Activity implements ListView.OnItemClickLis
 
         if(isReplacing)
         {
-            getFragmentManager().beginTransaction().replace(R.id.fragment_container,myProgramsFragment).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,myProgramsFragment).commit();
         }
         else
         {
-            getFragmentManager().beginTransaction().add(R.id.fragment_container,myProgramsFragment).commit();
+            getSupportFragmentManager().beginTransaction().add(R.id.fragment_container,myProgramsFragment).commit();
         }
         getActionBar().setListNavigationCallbacks(genreFilter,this);
     }

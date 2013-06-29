@@ -11,7 +11,7 @@ import com.rogena.vok.R;
 /**
  * Created by jason on 6/23/13.
  */
-public class KenyanTVFragment extends Fragment
+public class KenyanTVFragment extends android.support.v4.app.Fragment
 {
     public static final String NAME="Kenyan TV";
     /*
