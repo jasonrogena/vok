@@ -39,23 +39,28 @@ public final class R {
         public static final int ic_launcher=0x7f020002;
     }
     public static final class id {
-        public static final int action_refresh=0x7f0a0008;
-        public static final int action_search=0x7f0a0006;
-        public static final int action_settings=0x7f0a0005;
-        public static final int action_share=0x7f0a0007;
-        public static final int activity_title=0x7f0a0004;
-        public static final int drawer_layout=0x7f0a0000;
-        public static final int fragment_container=0x7f0a0001;
-        public static final int left_drawer=0x7f0a0002;
-        public static final int text1=0x7f0a0003;
+        public static final int action_refresh=0x7f0a000a;
+        public static final int action_search=0x7f0a0008;
+        public static final int action_settings=0x7f0a0007;
+        public static final int action_share=0x7f0a0009;
+        public static final int activity_title=0x7f0a0006;
+        public static final int drawer_layout=0x7f0a0002;
+        public static final int fragment_container=0x7f0a0003;
+        public static final int left_drawer=0x7f0a0004;
+        public static final int pager_title_strip=0x7f0a0001;
+        public static final int text1=0x7f0a0005;
+        public static final int view_pager=0x7f0a0000;
     }
     public static final class layout {
         public static final int drawer_list_item=0x7f030000;
         public static final int fragment_kenyan_tv=0x7f030001;
         public static final int fragment_my_programs=0x7f030002;
-        public static final int landing_activity=0x7f030003;
-        public static final int vok_spinner_item=0x7f030004;
-        public static final int vok_spinner_selected_item=0x7f030005;
+        public static final int fragment_new=0x7f030003;
+        public static final int fragment_recommended=0x7f030004;
+        public static final int fragment_trending=0x7f030005;
+        public static final int landing_activity=0x7f030006;
+        public static final int vok_spinner_item=0x7f030007;
+        public static final int vok_spinner_selected_item=0x7f030008;
     }
     public static final class menu {
         public static final int recommended_programs=0x7f090000;

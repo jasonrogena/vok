@@ -1,11 +1,14 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_pager"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <TextView
-        android:layout_width="wrap_content"
+    <android.support.v4.view.PagerTitleStrip
+        android:id="@+id/pager_title_strip"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Kenyan TV"
-        android:textSize="30dp"/>
-
-</LinearLayout>
+        android:layout_width="match_parent"
+        android:layout_gravity="top"
+        android:background="#2d2d2d"
+        android:textColor="@color/theme_green_color"
+        android:paddingTop="9dp"
+        android:paddingBottom="9dp"/>
+</android.support.v4.view.ViewPager>

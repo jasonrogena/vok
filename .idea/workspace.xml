@@ -14,7 +14,9 @@
   </component>
   <component name="AndroidLayoutPreviewToolWindow">
     <option name="state">
-      <GlobalState />
+      <GlobalState>
+        <option name="visible" value="false" />
+      </GlobalState>
     </option>
   </component>
   <component name="AndroidLayouts">
@@ -24,11 +26,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cfef2eb-ac27-4bd8-82ad-eb48ad222772" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VOK/src/main/res/layout/fragment_new.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VOK/src/main/res/layout/fragment_recommended.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VOK/src/main/res/layout/fragment_trending.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/FeaturedTabFragment.java" afterPath="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/NewTabFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/KenyanTVFragment.java" afterPath="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/KenyanTVFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/LandingActivity.java" afterPath="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/LandingActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/MyProgramsFragment.java" afterPath="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/MyProgramsFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VOK/VOK.iml" afterPath="$PROJECT_DIR$/VOK/VOK.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VOK/build/source/r/debug/com/rogena/vok/R.java" afterPath="$PROJECT_DIR$/VOK/build/source/r/debug/com/rogena/vok/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/RecommendedTabFragment.java" afterPath="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/RecommendedTabFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/TrendingTabFragment.java" afterPath="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/TrendingTabFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VOK/build/res/all/debug/layout/fragment_kenyan_tv.xml" afterPath="$PROJECT_DIR$/VOK/build/res/all/debug/layout/fragment_kenyan_tv.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VOK/src/main/res/layout/fragment_kenyan_tv.xml" afterPath="$PROJECT_DIR$/VOK/src/main/res/layout/fragment_kenyan_tv.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="VOK.iws" />
@@ -52,7 +59,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -89,6 +95,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -98,102 +105,103 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LandingActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/LandingActivity.java">
+      <file leaf-file-name="KenyanTVFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/KenyanTVFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="185" column="39" selection-start="6626" selection-end="6626" vertical-scroll-proportion="0.56852794" vertical-offset="2439" max-vertical-offset="3030">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="44" column="41" selection-start="1624" selection-end="1624" vertical-scroll-proportion="0.0" vertical-offset="174" max-vertical-offset="1500">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vok_spinner_item.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VOK/src/main/res/layout/vok_spinner_item.xml">
+      <file leaf-file-name="fragment_kenyan_tv.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/VOK/src/main/res/layout/fragment_kenyan_tv.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="36" selection-start="621" selection-end="621" vertical-scroll-proportion="0.3469751" vertical-offset="0" max-vertical-offset="562">
+              <folding />
+            </state>
+          </provider>
           <provider editor-type-id="android-designer">
             <state />
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fragment_recommended.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VOK/src/main/res/layout/fragment_recommended.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="28" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="255">
+            <state line="7" column="46" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="240">
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vok_spinner_selected_item.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VOK/src/main/res/layout/vok_spinner_selected_item.xml">
           <provider editor-type-id="android-designer">
             <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="38" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dimens.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VOK/src/main/res/values/dimens.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="46" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="225">
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="VOKArrayAdapter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/VOKArrayAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="13" selection-start="2111" selection-end="2111" vertical-scroll-proportion="0.0" vertical-offset="885" max-vertical-offset="1065">
+            <state line="60" column="13" selection-start="2111" selection-end="2111" vertical-scroll-proportion="0.0" vertical-offset="354" max-vertical-offset="945">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VOK/src/main/res/values/styles.xml">
+      <file leaf-file-name="fragment_trending.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VOK/src/main/res/layout/fragment_trending.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="49" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="720">
+            <state line="7" column="43" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="240">
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="landing_activity.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VOK/src/main/res/layout/landing_activity.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fragment_new.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VOK/src/main/res/layout/fragment_new.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="42" selection-start="785" selection-end="785" vertical-scroll-proportion="-8.793103" vertical-offset="0" max-vertical-offset="420">
+            <state line="9" column="0" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="240">
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KenyanTVFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/KenyanTVFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="69" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
-              <folding />
-            </state>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="MyProgramsFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/MyProgramsFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="39" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
+            <state line="24" column="6" selection-start="369" selection-end="1203" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="705">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VOK/src/main/res/values/strings.xml">
+      <file leaf-file-name="NewTabFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/NewTabFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="38" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="600">
+            <state line="21" column="62" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="720">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RecommendedTabFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/RecommendedTabFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="52" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="720">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TrendingTabFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/TrendingTabFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="49" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="720">
               <folding />
             </state>
           </provider>
@@ -248,22 +256,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/VOK/src/main/res/menu/trending_programs.xml" />
-        <option value="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/RecommendedPrograms.java" />
-        <option value="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/TrendingPrograms.java" />
-        <option value="$PROJECT_DIR$/VOK/src/main/res/layout/fragment_my_programs.xml" />
-        <option value="$PROJECT_DIR$/VOK/src/main/res/layout/fragment_kenyan_tv.xml" />
-        <option value="$PROJECT_DIR$/VOK/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/VOK/src/main/res/layout/vok_spinner_selected_item.xml" />
         <option value="$PROJECT_DIR$/VOK/src/main/res/layout/vok_spinner_item.xml" />
         <option value="$PROJECT_DIR$/VOK/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/VOKArrayAdapter.java" />
         <option value="$PROJECT_DIR$/VOK/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/VOK/src/main/res/layout/landing_activity.xml" />
         <option value="$PROJECT_DIR$/VOK/src/main/res/values/dimens.xml" />
-        <option value="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/KenyanTVFragment.java" />
         <option value="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/MyProgramsFragment.java" />
         <option value="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/LandingActivity.java" />
+        <option value="$PROJECT_DIR$/VOK/src/main/res/layout/fragment_recommended.xml" />
+        <option value="$PROJECT_DIR$/VOK/src/main/res/layout/fragment_trending.xml" />
+        <option value="$PROJECT_DIR$/VOK/src/main/res/layout/fragment_new.xml" />
+        <option value="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/NewTabFragment.java" />
+        <option value="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/RecommendedTabFragment.java" />
+        <option value="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/TrendingTabFragment.java" />
+        <option value="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/KenyanTVFragment.java" />
+        <option value="$PROJECT_DIR$/VOK/src/main/res/layout/fragment_kenyan_tv.xml" />
       </list>
     </option>
   </component>
@@ -302,6 +310,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -539,7 +548,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -560,11 +568,11 @@
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="JellyBean_HIGH" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -760,7 +768,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.6006441" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.685624" sideWeight="0.6006441" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.3993559" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
@@ -774,7 +782,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32978722" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.331307" sideWeight="0.6714976" order="0" side_tool="false" content_ui="combo" x="465" y="72" width="436" height="621" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.35106382" sideWeight="0.6714976" order="0" side_tool="false" content_ui="combo" x="465" y="72" width="436" height="621" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.29951692" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -788,13 +796,13 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.6714976" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.70972645" sideWeight="0.6714976" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29951692" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -872,62 +880,116 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/layout/fragment_my_programs.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="38" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="240" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/drawable-hdpi/ic_drawer.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/layout/fragment_kenyan_tv.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="255" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/R.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="560" column="32" selection-start="40349" selection-end="40349" vertical-scroll-proportion="0.33333334" vertical-offset="8188" max-vertical-offset="29445" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="47" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="38" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/drawable-hdpi/drawer_shadow.9.png">
-      <provider selected="true" editor-type-id="ninepatcheditor">
-        <state />
-      </provider>
-      <provider editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="49" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0" vertical-offset="129" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/VOK/src/main/res/values/dimens.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="46" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/layout/vok_spinner_selected_item.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="38" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/layout/vok_spinner_item.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="28" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/layout/landing_activity.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="42" selection-start="785" selection-end="785" vertical-scroll-proportion="-8.793103" vertical-offset="0" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/LandingActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="188" column="5" selection-start="6788" selection-end="6788" vertical-scroll-proportion="0.0" vertical-offset="2439" max-vertical-offset="3030">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/layout/fragment_my_programs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="416" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/layout/fragment_recommended.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="46" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/layout/fragment_new.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/layout/fragment_trending.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="43" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/MyProgramsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="6" selection-start="369" selection-end="1203" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="705">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/NewTabFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="62" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/RecommendedTabFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="52" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/TrendingTabFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="49" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="720">
           <folding />
         </state>
       </provider>
@@ -939,57 +1001,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/layout/vok_spinner_selected_item.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="38" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/layout/vok_spinner_item.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="28" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/KenyanTVFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="69" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
+        <state line="44" column="41" selection-start="1624" selection-end="1624" vertical-scroll-proportion="0.0" vertical-offset="174" max-vertical-offset="1500">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/layout/landing_activity.xml">
+    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/layout/fragment_kenyan_tv.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="36" selection-start="621" selection-end="621" vertical-scroll-proportion="0.3469751" vertical-offset="0" max-vertical-offset="562">
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="android-designer">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="42" selection-start="785" selection-end="785" vertical-scroll-proportion="-8.793103" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/MyProgramsFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="39" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/LandingActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="185" column="39" selection-start="6626" selection-end="6626" vertical-scroll-proportion="0.56852794" vertical-offset="2439" max-vertical-offset="3030">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
   </component>

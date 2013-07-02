@@ -11,15 +11,15 @@ import com.rogena.vok.R;
 /**
  * Created by jason on 6/19/13.
  */
-public class TrendingTabFragment extends Fragment
+public class NewTabFragment extends Fragment
 {
-    public static final String TITLE="Trending";
-    public static final int POSITION=2;
+    public static final String TITLE="Featured";
+    public static final int POSITION=0;
     @Override
     public View onCreateView(LayoutInflater layoutInflater, ViewGroup container, Bundle savedInstanceState)//called when the fragment should create its UI
     {
         super.onCreateView(layoutInflater,container,savedInstanceState);
-        View view=layoutInflater.inflate(R.layout.fragment_trending,container,false);
+        View view=layoutInflater.inflate(R.layout.fragment_new,container,false);
         return view;
     }
 

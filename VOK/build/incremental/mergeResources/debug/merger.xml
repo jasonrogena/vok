@@ -94,13 +94,13 @@
                 </dimen>
                 <dimen name="activity_horizontal_margin" >16dp
                 </dimen>
-                <dimen name="action_bar_sub_title_text_size" >13dp
-                </dimen>
                 <dimen name="left_drawer_width" >240dp
                 </dimen>
-                <dimen name="divider_height" >0.1dp
+                <dimen name="action_bar_sub_title_text_size" >13dp
                 </dimen>
                 <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+                <dimen name="divider_height" >0.1dp
                 </dimen>
             </file>
             <file
@@ -136,17 +136,6 @@
                 </style>
 
                 <style
-                    name="VOKTheme"
-                    parent="AppTheme" >
-                    <item name="android:actionBarStyle">
-@style/VOKTheme.ActionBar
-                    </item>
-                    <item name="android:dropDownListViewStyle">
-@style/VOKTheme.Spinner
-                    </item>
-                </style>
-
-                <style
                     name="AppBaseTheme"
                     parent="android:Theme.Light" >
 
@@ -155,6 +144,17 @@
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
                     -->
+                </style>
+
+                <style
+                    name="VOKTheme"
+                    parent="AppTheme" >
+                    <item name="android:actionBarStyle">
+@style/VOKTheme.ActionBar
+                    </item>
+                    <item name="android:dropDownListViewStyle">
+@style/VOKTheme.Spinner
+                    </item>
                 </style>
 
                 <style
@@ -189,6 +189,13 @@
                 </style>
 
                 <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+
+                <style
                     name="VOKTheme.Spinner"
                     parent="@android:style/Widget.Holo.Light.ListView.DropDown" >
                     <item name="android:dividerHeight">
@@ -197,13 +204,6 @@
                     <item name="android:divider">
 @color/theme_green_color
                     </item>
-                </style>
-
-                <style
-                    name="AppTheme"
-                    parent="AppBaseTheme" >
-
-                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
                 </style>
             </file>
             <file
@@ -305,6 +305,21 @@ Channel Schedules
             <file
                 name="vok_spinner_selected_item"
                 path="/home/jason/android-studio/VOKProject/VOK/src/main/res/layout/vok_spinner_selected_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_recommended"
+                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/layout/fragment_recommended.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_new"
+                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/layout/fragment_new.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_trending"
+                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/layout/fragment_trending.xml"
                 qualifiers=""
                 type="layout" />
         </source>
