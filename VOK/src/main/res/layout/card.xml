@@ -2,8 +2,10 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/cardParentLayout"
         android:layout_width="match_parent"
+        android:background="@drawable/card_background"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:layout_marginTop="@dimen/card_top_margin"
         android:layout_marginLeft="@dimen/card_side_margin"
         android:layout_marginRight="@dimen/card_side_margin"
         android:focusable="true">

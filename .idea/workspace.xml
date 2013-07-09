@@ -25,48 +25,23 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="vok" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="caused" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cfef2eb-ac27-4bd8-82ad-eb48ad222772" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VOK/src/main/res/drawable-xhdpi/app_background_pattern.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VOK/src/main/res/drawable-xhdpi/card_background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VOK/src/main/res/drawable-xhdpi/card_background_shadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VOK/src/main/res/drawable-xhdpi/card_shadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VOK/src/main/res/drawable-hdpi/cheche.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VOK/src/main/res/drawable-mdpi/cheche.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VOK/src/main/res/drawable-xhdpi/cheche.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VOK/src/main/res/drawable-xxhdpi/cheche.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VOK/src/main/res/drawable-xhdpi/top_shadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/customViews/Card.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VOK/src/main/res/drawable-xhdpi/app_background.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VOK/src/main/res/values/attrs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VOK/src/main/res/layout/card.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/VOK/build/res/all/debug/drawable-hdpi/drawer_shadow.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/VOK/build/res/all/debug/drawable-mdpi/drawer_shadow.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/VOK/build/res/all/debug/drawable-xhdpi/drawer_shadow.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/VOK/build/res/all/debug/layout/fragment_kenyan_tv.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/KenyanTVFragment.java" afterPath="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/DiscoverFragment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/VOK/src/main/res/drawable-hdpi/drawer_shadow.9.png" afterPath="$PROJECT_DIR$/VOK/src/main/res/drawable-hdpi/drawer_shadow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/VOK/src/main/res/drawable-mdpi/drawer_shadow.9.png" afterPath="$PROJECT_DIR$/VOK/src/main/res/drawable-mdpi/drawer_shadow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/VOK/src/main/res/drawable-xhdpi/drawer_shadow.9.png" afterPath="$PROJECT_DIR$/VOK/src/main/res/drawable-xhdpi/drawer_shadow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/VOK/src/main/res/layout/fragment_kenyan_tv.xml" afterPath="$PROJECT_DIR$/VOK/src/main/res/layout/fragment_discover.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/LandingActivity.java" afterPath="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/LandingActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/NewTabFragment.java" afterPath="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/NewTabFragment.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/VOK/build/res/all/debug/drawable-xhdpi/card_background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/VOK/build/res/all/debug/drawable-xhdpi/card_background_shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/VOK/build/res/all/debug/drawable-xhdpi/card_shadow.png" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/VOK/src/main/res/drawable-xhdpi/card_background.png" afterPath="$PROJECT_DIR$/VOK/src/main/res/drawable-xhdpi/card_background.9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/VOK/src/main/res/drawable-xhdpi/card_background_shadow.png" afterPath="$PROJECT_DIR$/VOK/src/main/res/drawable-xhdpi/card_background_shadow.9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/VOK/src/main/res/drawable-xhdpi/card_shadow.png" afterPath="$PROJECT_DIR$/VOK/src/main/res/drawable-xhdpi/card_shadow.9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/customViews/Card.java" afterPath="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/customViews/Card.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VOK/build/source/r/debug/com/rogena/vok/R.java" afterPath="$PROJECT_DIR$/VOK/build/source/r/debug/com/rogena/vok/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/RecommendedTabFragment.java" afterPath="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/RecommendedTabFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VOK/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/VOK/src/main/res/values/colors.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VOK/build/res/all/debug/layout/card.xml" afterPath="$PROJECT_DIR$/VOK/build/res/all/debug/layout/card.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VOK/src/main/res/layout/card.xml" afterPath="$PROJECT_DIR$/VOK/src/main/res/layout/card.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VOK/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/VOK/src/main/res/values/dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VOK/build/res/all/debug/layout/fragment_my_programs.xml" afterPath="$PROJECT_DIR$/VOK/build/res/all/debug/layout/fragment_my_programs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VOK/src/main/res/layout/fragment_my_programs.xml" afterPath="$PROJECT_DIR$/VOK/src/main/res/layout/fragment_my_programs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VOK/build/res/all/debug/layout/fragment_new.xml" afterPath="$PROJECT_DIR$/VOK/build/res/all/debug/layout/fragment_new.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VOK/src/main/res/layout/fragment_new.xml" afterPath="$PROJECT_DIR$/VOK/src/main/res/layout/fragment_new.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VOK/build/res/all/debug/layout/fragment_recommended.xml" afterPath="$PROJECT_DIR$/VOK/build/res/all/debug/layout/fragment_recommended.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VOK/src/main/res/layout/fragment_recommended.xml" afterPath="$PROJECT_DIR$/VOK/src/main/res/layout/fragment_recommended.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VOK/build/res/all/debug/layout/fragment_trending.xml" afterPath="$PROJECT_DIR$/VOK/build/res/all/debug/layout/fragment_trending.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VOK/src/main/res/layout/fragment_trending.xml" afterPath="$PROJECT_DIR$/VOK/src/main/res/layout/fragment_trending.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VOK/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/VOK/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VOK/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/VOK/build/res/all/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -179,7 +154,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="60" selection-start="526" selection-end="526" vertical-scroll-proportion="-5.6896553" vertical-offset="0" max-vertical-offset="750">
+            <state line="7" column="51" selection-start="358" selection-end="358" vertical-scroll-proportion="-3.6206896" vertical-offset="0" max-vertical-offset="780">
               <folding />
             </state>
           </provider>
@@ -188,25 +163,38 @@
       <file leaf-file-name="dimens.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/VOK/src/main/res/values/dimens.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="47" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+            <state line="12" column="46" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Card.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Card.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/customViews/Card.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="193" column="29" selection-start="6202" selection-end="6202" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6240">
-              <folding />
+            <state line="311" column="46" selection-start="9662" selection-end="9662" vertical-scroll-proportion="7.793961" vertical-offset="277" max-vertical-offset="7230">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RecommendedTabFragment.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RecommendedTabFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/RecommendedTabFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="37" selection-start="1763" selection-end="1763" vertical-scroll-proportion="0.46700507" vertical-offset="294" max-vertical-offset="885">
+            <state line="28" column="73" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0" vertical-offset="328" max-vertical-offset="1020">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="attrs.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VOK/src/main/res/values/attrs.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="62" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
               <folding />
             </state>
           </provider>
@@ -272,11 +260,11 @@
         <option value="$PROJECT_DIR$/VOK/src/main/res/drawable-xhdpi/app_background.xml" />
         <option value="$PROJECT_DIR$/VOK/src/main/res/layout/fragment_new.xml" />
         <option value="$PROJECT_DIR$/VOK/src/main/res/layout/fragment_trending.xml" />
-        <option value="$PROJECT_DIR$/VOK/src/main/res/values/dimens.xml" />
-        <option value="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/RecommendedTabFragment.java" />
         <option value="$PROJECT_DIR$/VOK/src/main/res/layout/fragment_recommended.xml" />
-        <option value="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/customViews/Card.java" />
+        <option value="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/RecommendedTabFragment.java" />
+        <option value="$PROJECT_DIR$/VOK/src/main/res/values/dimens.xml" />
         <option value="$PROJECT_DIR$/VOK/src/main/res/layout/card.xml" />
+        <option value="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/customViews/Card.java" />
       </list>
     </option>
   </component>
@@ -409,6 +397,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VOK" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VOKProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VOK" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -893,7 +911,7 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6854103" sideWeight="0.68599033" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993559" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32850242" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -905,7 +923,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32978722" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.35486323" sideWeight="0.68599033" order="0" side_tool="false" content_ui="combo" x="465" y="72" width="436" height="621" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.31400967" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="true" weight="0.31400967" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1002,45 +1020,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/drawable-xhdpi/app_background_pattern.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/values/attrs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="49" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/layout/fragment_my_programs.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="37" selection-start="387" selection-end="387" vertical-scroll-proportion="-4.137931" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="81" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/layout/landing_activity.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="43" selection-start="455" selection-end="455" vertical-scroll-proportion="-4.6551723" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/VOK/src/main/res/drawable-xhdpi/app_background.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="31" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
@@ -1048,38 +1027,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/drawable-xhdpi/card_background.png">
+    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/drawable-xhdpi/card_background.9.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/drawable-xhdpi/card_background_shadow.png">
+    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/drawable-xhdpi/card_background_shadow.9.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/customViews/Card.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="193" column="29" selection-start="6202" selection-end="6202" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/values/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="47" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/layout/card.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="60" selection-start="526" selection-end="526" vertical-scroll-proportion="-5.6896553" vertical-offset="0" max-vertical-offset="750">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/VOK/src/main/res/layout/fragment_trending.xml">
@@ -1117,10 +1072,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/drawable-xhdpi/top_shadow.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/drawable-xhdpi/drawer_shadow.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/drawable-xhdpi/app_background_pattern.png">
+      <provider selected="true" editor-type-id="ninepatcheditor">
+        <state />
+      </provider>
+      <provider editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/values/attrs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="62" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/values/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="46" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/layout/card.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="51" selection-start="358" selection-end="358" vertical-scroll-proportion="-3.6206896" vertical-offset="0" max-vertical-offset="780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/RecommendedTabFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="37" selection-start="1763" selection-end="1763" vertical-scroll-proportion="0.46700507" vertical-offset="294" max-vertical-offset="885">
+        <state line="28" column="73" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0" vertical-offset="193" max-vertical-offset="1020">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/view/View.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1079" column="45" selection-start="49009" selection-end="49009" vertical-scroll-proportion="0.3581315" vertical-offset="15963" max-vertical-offset="17190">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/customViews/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="311" column="46" selection-start="9662" selection-end="9662" vertical-scroll-proportion="7.793961" vertical-offset="277" max-vertical-offset="7230">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

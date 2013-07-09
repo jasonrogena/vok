@@ -114,8 +114,9 @@ containing a value of this type.
         public static final int card_side_margin=0x7f06000c;
         public static final int card_text_layout_height=0x7f06000d;
         public static final int card_top_margin=0x7f06000e;
-        public static final int divider_height=0x7f06000f;
-        public static final int left_drawer_width=0x7f060010;
+        public static final int card_top_margin_selected=0x7f06000f;
+        public static final int divider_height=0x7f060010;
+        public static final int left_drawer_width=0x7f060011;
     }
     public static final class drawable {
         public static final int app_background=0x7f020000;

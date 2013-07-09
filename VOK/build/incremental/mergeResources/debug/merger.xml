@@ -70,7 +70,7 @@
                 type="drawable" />
             <file
                 name="card_background_shadow"
-                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/drawable-xhdpi/card_background_shadow.png"
+                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/drawable-xhdpi/card_background_shadow.9.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
@@ -85,7 +85,7 @@
                 type="drawable" />
             <file
                 name="card_shadow"
-                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/drawable-xhdpi/card_shadow.png"
+                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/drawable-xhdpi/card_shadow.9.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
@@ -94,13 +94,13 @@
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
-                name="cheche"
-                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/drawable-xhdpi/cheche.jpg"
+                name="card_background"
+                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/drawable-xhdpi/card_background.9.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
-                name="card_background"
-                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/drawable-xhdpi/card_background.png"
+                name="cheche"
+                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/drawable-xhdpi/cheche.jpg"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
@@ -205,6 +205,8 @@
                 <dimen name="action_bar_title_text_size" >18dp
                 </dimen>
                 <dimen name="card_top_margin" >15dp
+                </dimen>
+                <dimen name="card_top_margin_selected" >3dp
                 </dimen>
                 <dimen name="action_bar_sub_title_text_size" >13dp
                 </dimen>

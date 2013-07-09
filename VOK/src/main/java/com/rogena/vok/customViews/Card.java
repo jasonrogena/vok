@@ -4,7 +4,9 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
+import android.util.DisplayMetrics;
 import android.util.Log;
+import android.util.TypedValue;
 import android.view.Display;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
@@ -43,6 +45,7 @@ public class Card extends LinearLayout
     private boolean swippable;
 
     private OnSwipedOutListener onSwipedOutListener;
+    private OnClickListener onClickListener;
 
     public Card(Context context)
     {
@@ -77,6 +80,7 @@ public class Card extends LinearLayout
         cardPrimaryTextView=(TextView)findViewById(R.id.cardPrimaryTextView);
         cardSecondaryTextView=(TextView)findViewById(R.id.cardSecondaryTextView);
         nextCard=null;
+        backgroundWithShadow=false;
 
         if(attributeSet!=null)
         {
@@ -86,7 +90,7 @@ public class Card extends LinearLayout
                 String primaryCardText=typedArray.getString(R.styleable.Card_primary_text);
                 String secondaryCardText=typedArray.getString(R.styleable.Card_secondary_text);
                 Drawable cardImageDrawable=typedArray.getDrawable(R.styleable.Card_image);
-                backgroundWithShadow=typedArray.getBoolean(R.styleable.Card_background_with_shadow,true);
+                //backgroundWithShadow=typedArray.getBoolean(R.styleable.Card_background_with_shadow,true);
                 swipedOutThreshold=typedArray.getFloat(R.styleable.Card_swiped_out_threshold,0);
                 resetDuration=(long)typedArray.getInt(R.styleable.Card_reset_duration,0);
                 goneDuration =(long)typedArray.getInt(R.styleable.Card_gone_duration,0);
@@ -105,14 +109,14 @@ public class Card extends LinearLayout
                 {
                     cardImageView.setImageDrawable(cardImageDrawable);
                 }
-                if(backgroundWithShadow)
+                /*if(backgroundWithShadow)
                 {
                     cardParentLayout.setBackgroundResource(R.drawable.card_background_shadow);
                 }
                 else
                 {
                     cardParentLayout.setBackgroundResource(R.drawable.card_background);
-                }
+                }*/
                 if(nextCardId!=-1)
                 {
                     nextCard=(Card)this.findViewById(nextCardId);
@@ -151,17 +155,27 @@ public class Card extends LinearLayout
         cardImageView.setImageDrawable(imageDrawable);
     }
 
-    public void setBackgroundWithShadow(boolean backgroundWithShadow)
+    private void setBackgroundWithShadow(boolean backgroundWithShadow)
     {
-        this.backgroundWithShadow=backgroundWithShadow;
+        LayoutParams layoutParams=(LayoutParams)this.getLayoutParams();
         if(backgroundWithShadow)
         {
+            if(backgroundWithShadow!=this.backgroundWithShadow)
+            {
+                layoutParams.topMargin=layoutParams.topMargin-(int)dpToPixels(12);
+            }
             cardParentLayout.setBackgroundResource(R.drawable.card_background_shadow);
         }
         else
         {
+            if(backgroundWithShadow!=this.backgroundWithShadow)
+            {
+                layoutParams.topMargin=layoutParams.topMargin+(int)dpToPixels(12);
+            }
             cardParentLayout.setBackgroundResource(R.drawable.card_background);
         }
+        this.backgroundWithShadow=backgroundWithShadow;
+        this.setLayoutParams(layoutParams);
     }
 
     public boolean isBackgroundWithShadow()
@@ -237,10 +251,12 @@ public class Card extends LinearLayout
     @Override
     public boolean onTouchEvent(MotionEvent event)
     {
-        if(swippable)
+        super.onTouchEvent(event);
+        int positionX=(int)event.getRawX();
+        if(event.getAction()==MotionEvent.ACTION_DOWN)
         {
-            int positionX=(int)event.getRawX();
-            if(event.getAction()==MotionEvent.ACTION_DOWN)
+            setBackgroundWithShadow(true);
+            if(swippable)
             {
                 prevX=positionX;
                 if(originalLMargin==-1 && originalRMargin==-1 && originalAlpha==-1)
@@ -251,7 +267,10 @@ public class Card extends LinearLayout
                     originalAlpha=this.getAlpha();
                 }
             }
-            else if(event.getAction()==MotionEvent.ACTION_MOVE)
+        }
+        else if(event.getAction()==MotionEvent.ACTION_MOVE)
+        {
+            if(swippable)
             {
                 int deltaX=positionX-prevX;
                 LayoutParams layoutParams=(LayoutParams)this.getLayoutParams();
@@ -283,9 +302,16 @@ public class Card extends LinearLayout
                     alpha=0;
                 }
                 this.setAlpha(alpha);
-
             }
-            else if(event.getAction()==MotionEvent.ACTION_UP)
+        }
+        else if(event.getAction()==MotionEvent.ACTION_UP)
+        {
+            setBackgroundWithShadow(false);
+            if(onClickListener!=null)
+            {
+                onClickListener.onClick(this);
+            }
+            if(swippable)
             {
                 if(this.getAlpha()> swipedOutThreshold)
                 {
@@ -298,8 +324,12 @@ public class Card extends LinearLayout
                 }
             }
         }
+        else if(event.getAction()==MotionEvent.ACTION_CANCEL)
+        {
+            setBackgroundWithShadow(false);
+        }
 
-        return super.onTouchEvent(event);
+        return true;
     }
 
     private int getDisplayWidth()
@@ -314,9 +344,20 @@ public class Card extends LinearLayout
         public void onSwipedOut(Card card);
     }
 
+    public interface OnClickListener
+    {
+        public void onClick(Card card);
+    }
+
+
     public void setOnSwipedOutListener(OnSwipedOutListener onSwipedOutListener)
     {
         this.onSwipedOutListener=onSwipedOutListener;
+    }
+
+    public void setOnClickListener(OnClickListener onClickListener)
+    {
+        this.onClickListener=onClickListener;
     }
 
     private void runGoneVisibilityAnimation()
@@ -424,6 +465,13 @@ public class Card extends LinearLayout
 
         this.clearAnimation();
         this.startAnimation(moveUpAnimation);
+    }
+
+    private float dpToPixels(int dp)
+    {
+        //DisplayMetrics displayMetrics = context.getResources().getDisplayMetrics();
+        //return (int)((dp * displayMetrics.density) + 0.5);
+        return TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,dp,context.getResources().getDisplayMetrics());
     }
 
 }

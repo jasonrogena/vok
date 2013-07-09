@@ -39,7 +39,7 @@ public class RecommendedTabFragment extends Fragment
     {
         super.onActivityCreated(savedInstanceState);
         Card newCard=new Card(getActivity());
-        newCard.setBackgroundWithShadow(true);
+        //newCard.setBackgroundWithShadow(false);
         newCard.setImage(getResources().getDrawable(R.drawable.cheche));
         newCard.setPrimaryText("Cheche");
         newCard.setSecondaryText("on Citizen TV");

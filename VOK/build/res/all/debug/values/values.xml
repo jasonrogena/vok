@@ -57,6 +57,7 @@
     <dimen name="card_side_margin">15dp</dimen>
     <dimen name="card_text_layout_height">40dp</dimen>
     <dimen name="card_top_margin">15dp</dimen>
+    <dimen name="card_top_margin_selected">3dp</dimen>
     <dimen name="divider_height">0.1dp</dimen>
     <dimen name="left_drawer_width">240dp</dimen>
 
