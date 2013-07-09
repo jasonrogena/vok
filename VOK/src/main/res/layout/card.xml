@@ -13,7 +13,7 @@
             android:id="@+id/cardImageView"
             android:layout_height="@dimen/card_image_height"
             android:layout_width="match_parent"
-            android:scaleType="center"/>
+            android:scaleType="centerCrop"/>
     <LinearLayout
             android:id="@+id/cardTextLayout"
             android:layout_width="match_parent"

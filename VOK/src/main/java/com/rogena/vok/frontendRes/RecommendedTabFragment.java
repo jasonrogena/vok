@@ -38,18 +38,6 @@ public class RecommendedTabFragment extends Fragment
     public void onActivityCreated(Bundle savedInstanceState)//called after oncreateview when the host activity is created.
     {
         super.onActivityCreated(savedInstanceState);
-        Card newCard=new Card(getActivity());
-        //newCard.setBackgroundWithShadow(false);
-        newCard.setImage(getResources().getDrawable(R.drawable.cheche));
-        newCard.setPrimaryText("Cheche");
-        newCard.setSecondaryText("on Citizen TV");
-        newCard.setSwipedOutThreshold(0.4f);
-        newCard.setResetDuration(200);
-        newCard.setGoneDuration(100);
-        newCard.setMoveUpDuration(200);
-        newCard.setFocusable(true);
-        LinearLayout.LayoutParams layoutParams=new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT,LinearLayout.LayoutParams.WRAP_CONTENT);
-        linearLayout.addView(newCard,layoutParams);
     }
 
     /*called when the fragments becomes visible

@@ -59,6 +59,11 @@
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
+                name="churchill_show"
+                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/drawable-xhdpi/churchill_show.jpg"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
                 name="ic_launcher"
                 path="/home/jason/android-studio/VOKProject/VOK/src/main/res/drawable-xhdpi/ic_launcher.png"
                 qualifiers="xhdpi"
@@ -66,6 +71,11 @@
             <file
                 name="top_shadow"
                 path="/home/jason/android-studio/VOKProject/VOK/src/main/res/drawable-xhdpi/top_shadow.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="papa"
+                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/drawable-xhdpi/papa.jpg"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
@@ -200,20 +210,20 @@
                 <string name="big_card_image_relative_height" >0.65
                 </string>
 
-                <dimen name="card_secondary_text_bottom_margin" >8dp
-                </dimen>
                 <dimen name="action_bar_title_text_size" >18dp
+                </dimen>
+                <dimen name="card_secondary_text_bottom_margin" >8dp
                 </dimen>
                 <dimen name="card_top_margin" >15dp
                 </dimen>
                 <dimen name="card_top_margin_selected" >3dp
                 </dimen>
-                <dimen name="action_bar_sub_title_text_size" >13dp
-                </dimen>
 
                 <string name="big_card_relative_height" >0.7
                 </string>
 
+                <dimen name="action_bar_sub_title_text_size" >13dp
+                </dimen>
                 <dimen name="divider_height" >0.1dp
                 </dimen>
                 <dimen name="card_text_layout_height" >40dp
@@ -236,9 +246,9 @@
                 </color>
                 <color name="card_text_layout_color" >#ffffff
                 </color>
-                <color name="secondary_card_text_color" >#3c3f41
-                </color>
                 <color name="theme_green_color" >#96aa39
+                </color>
+                <color name="secondary_card_text_color" >#3c3f41
                 </color>
             </file>
             <file
@@ -254,17 +264,6 @@
                 </style>
 
                 <style
-                    name="VOKTheme"
-                    parent="AppTheme" >
-                    <item name="android:actionBarStyle">
-@style/VOKTheme.ActionBar
-                    </item>
-                    <item name="android:dropDownListViewStyle">
-@style/VOKTheme.Spinner
-                    </item>
-                </style>
-
-                <style
                     name="AppBaseTheme"
                     parent="android:Theme.Light" >
 
@@ -273,6 +272,17 @@
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
                     -->
+                </style>
+
+                <style
+                    name="VOKTheme"
+                    parent="AppTheme" >
+                    <item name="android:actionBarStyle">
+@style/VOKTheme.ActionBar
+                    </item>
+                    <item name="android:dropDownListViewStyle">
+@style/VOKTheme.Spinner
+                    </item>
                 </style>
 
                 <style
@@ -307,6 +317,13 @@
                 </style>
 
                 <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+
+                <style
                     name="VOKTheme.Spinner"
                     parent="@android:style/Widget.Holo.Light.ListView.DropDown" >
                     <item name="android:dividerHeight">
@@ -315,13 +332,6 @@
                     <item name="android:divider">
 @color/theme_green_color
                     </item>
-                </style>
-
-                <style
-                    name="AppTheme"
-                    parent="AppBaseTheme" >
-
-                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
                 </style>
             </file>
             <file
@@ -453,6 +463,11 @@ Channel Schedules
                 path="/home/jason/android-studio/VOKProject/VOK/src/main/res/menu/recommended_programs.xml"
                 qualifiers=""
                 type="menu" />
+            <file
+                name="mali"
+                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/drawable-xhdpi/mali.jpg"
+                qualifiers="xhdpi"
+                type="drawable" />
         </source>
         <source path="/home/jason/android-studio/VOKProject/VOK/build/res/rs/debug" />
     </dataSet>

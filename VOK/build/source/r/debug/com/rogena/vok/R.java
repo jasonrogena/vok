@@ -125,29 +125,34 @@ containing a value of this type.
         public static final int card_background_shadow=0x7f020003;
         public static final int card_shadow=0x7f020004;
         public static final int cheche=0x7f020005;
-        public static final int drawer_shadow=0x7f020006;
-        public static final int ic_drawer=0x7f020007;
-        public static final int ic_launcher=0x7f020008;
-        public static final int top_shadow=0x7f020009;
+        public static final int churchill_show=0x7f020006;
+        public static final int drawer_shadow=0x7f020007;
+        public static final int ic_drawer=0x7f020008;
+        public static final int ic_launcher=0x7f020009;
+        public static final int mali=0x7f02000a;
+        public static final int papa=0x7f02000b;
+        public static final int top_shadow=0x7f02000c;
     }
     public static final class id {
-        public static final int action_refresh=0x7f0a0011;
-        public static final int action_search=0x7f0a000f;
-        public static final int action_settings=0x7f0a000e;
-        public static final int action_share=0x7f0a0010;
-        public static final int activity_title=0x7f0a000d;
+        public static final int action_refresh=0x7f0a0013;
+        public static final int action_search=0x7f0a0011;
+        public static final int action_settings=0x7f0a0010;
+        public static final int action_share=0x7f0a0012;
+        public static final int activity_title=0x7f0a000f;
+        public static final int card3=0x7f0a0009;
+        public static final int card4=0x7f0a000a;
         public static final int cardImageView=0x7f0a0001;
         public static final int cardParentLayout=0x7f0a0000;
         public static final int cardPrimaryTextView=0x7f0a0003;
         public static final int cardSecondaryTextView=0x7f0a0004;
         public static final int cardTextLayout=0x7f0a0002;
-        public static final int drawer_layout=0x7f0a0009;
-        public static final int fragment_container=0x7f0a000a;
+        public static final int drawer_layout=0x7f0a000b;
+        public static final int fragment_container=0x7f0a000c;
         public static final int jasonCard=0x7f0a0008;
-        public static final int left_drawer=0x7f0a000b;
+        public static final int left_drawer=0x7f0a000d;
         public static final int linear_layout=0x7f0a0007;
         public static final int pager_title_strip=0x7f0a0006;
-        public static final int text1=0x7f0a000c;
+        public static final int text1=0x7f0a000e;
         public static final int view_pager=0x7f0a0005;
     }
     public static final class layout {
