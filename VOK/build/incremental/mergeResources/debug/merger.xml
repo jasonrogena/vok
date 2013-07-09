@@ -9,8 +9,18 @@
                 qualifiers=""
                 type="layout" />
             <file
-                name="fragment_kenyan_tv"
-                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/layout/fragment_kenyan_tv.xml"
+                name="fragment_new"
+                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/layout/fragment_new.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_discover"
+                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/layout/fragment_discover.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="vok_spinner_selected_item"
+                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/layout/vok_spinner_selected_item.xml"
                 qualifiers=""
                 type="layout" />
             <file
@@ -19,23 +29,78 @@
                 qualifiers=""
                 type="layout" />
             <file
+                name="card"
+                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/layout/card.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_recommended"
+                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/layout/fragment_recommended.xml"
+                qualifiers=""
+                type="layout" />
+            <file
                 name="fragment_my_programs"
                 path="/home/jason/android-studio/VOKProject/VOK/src/main/res/layout/fragment_my_programs.xml"
                 qualifiers=""
                 type="layout" />
+            <file
+                name="vok_spinner_item"
+                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/layout/vok_spinner_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_trending"
+                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/layout/fragment_trending.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="app_background"
+                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/drawable-xhdpi/app_background.xml"
+                qualifiers="xhdpi"
+                type="drawable" />
             <file
                 name="ic_launcher"
                 path="/home/jason/android-studio/VOKProject/VOK/src/main/res/drawable-xhdpi/ic_launcher.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
+                name="top_shadow"
+                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/drawable-xhdpi/top_shadow.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="card_background_shadow"
+                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/drawable-xhdpi/card_background_shadow.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="app_background_pattern"
+                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/drawable-xhdpi/app_background_pattern.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
                 name="drawer_shadow"
-                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/drawable-xhdpi/drawer_shadow.9.png"
+                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/drawable-xhdpi/drawer_shadow.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="card_shadow"
+                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/drawable-xhdpi/card_shadow.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="ic_drawer"
                 path="/home/jason/android-studio/VOKProject/VOK/src/main/res/drawable-xhdpi/ic_drawer.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="cheche"
+                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/drawable-xhdpi/cheche.jpg"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="card_background"
+                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/drawable-xhdpi/card_background.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
@@ -48,12 +113,17 @@
                 type="drawable" />
             <file
                 name="drawer_shadow"
-                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/drawable-mdpi/drawer_shadow.9.png"
+                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/drawable-mdpi/drawer_shadow.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="ic_drawer"
                 path="/home/jason/android-studio/VOKProject/VOK/src/main/res/drawable-mdpi/ic_drawer.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="cheche"
+                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/drawable-mdpi/cheche.jpg"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
@@ -73,13 +143,18 @@
                 qualifiers="xxhdpi"
                 type="drawable" />
             <file
+                name="cheche"
+                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/drawable-xxhdpi/cheche.jpg"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
                 name="ic_launcher"
                 path="/home/jason/android-studio/VOKProject/VOK/src/main/res/drawable-hdpi/ic_launcher.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="drawer_shadow"
-                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/drawable-hdpi/drawer_shadow.9.png"
+                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/drawable-hdpi/drawer_shadow.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
@@ -88,19 +163,58 @@
                 qualifiers="hdpi"
                 type="drawable" />
             <file
+                name="cheche"
+                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/drawable-hdpi/cheche.jpg"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
                 path="/home/jason/android-studio/VOKProject/VOK/src/main/res/values/dimens.xml"
                 qualifiers="" >
-                <dimen name="action_bar_title_text_size" >18dp
+                <dimen name="card_primary_text_top_margin" >6dp
                 </dimen>
+                <dimen name="card_primary_text_size" >16dp
+                </dimen>
+                <dimen name="card_secondary_text_left_margin" >15dp
+                </dimen>
+                <dimen name="card_secondary_text_top_margin" >3dp
+                </dimen>
+
+                <string name="big_card_relative_width" >0.8
+                </string>
+
                 <dimen name="activity_horizontal_margin" >16dp
                 </dimen>
                 <dimen name="left_drawer_width" >240dp
                 </dimen>
-                <dimen name="action_bar_sub_title_text_size" >13dp
-                </dimen>
                 <dimen name="activity_vertical_margin" >16dp
                 </dimen>
+                <dimen name="card_primary_text_left_margin" >15dp
+                </dimen>
+                <dimen name="card_side_margin" >15dp
+                </dimen>
+                <dimen name="card_secondary_text_size" >14dp
+                </dimen>
+                <dimen name="card_image_height" >120dp
+                </dimen>
+
+                <string name="big_card_image_relative_height" >0.65
+                </string>
+
+                <dimen name="card_secondary_text_bottom_margin" >8dp
+                </dimen>
+                <dimen name="action_bar_title_text_size" >18dp
+                </dimen>
+                <dimen name="card_top_margin" >15dp
+                </dimen>
+                <dimen name="action_bar_sub_title_text_size" >13dp
+                </dimen>
+
+                <string name="big_card_relative_height" >0.7
+                </string>
+
                 <dimen name="divider_height" >0.1dp
+                </dimen>
+                <dimen name="card_text_layout_height" >40dp
                 </dimen>
             </file>
             <file
@@ -116,9 +230,11 @@
                 </color>
                 <color name="transparent" >#00000000
                 </color>
-                <color name="left_drawer_background_color" >#ffffff
-                </color>
                 <color name="theme_grey_color" >#e6ebe6
+                </color>
+                <color name="card_text_layout_color" >#ffffff
+                </color>
+                <color name="secondary_card_text_color" >#3c3f41
                 </color>
                 <color name="theme_green_color" >#96aa39
                 </color>
@@ -136,17 +252,6 @@
                 </style>
 
                 <style
-                    name="AppBaseTheme"
-                    parent="android:Theme.Light" >
-
-                    <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-                    -->
-                </style>
-
-                <style
                     name="VOKTheme"
                     parent="AppTheme" >
                     <item name="android:actionBarStyle">
@@ -155,6 +260,17 @@
                     <item name="android:dropDownListViewStyle">
 @style/VOKTheme.Spinner
                     </item>
+                </style>
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
                 </style>
 
                 <style
@@ -189,13 +305,6 @@
                 </style>
 
                 <style
-                    name="AppTheme"
-                    parent="AppBaseTheme" >
-
-                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
-                </style>
-
-                <style
                     name="VOKTheme.Spinner"
                     parent="@android:style/Widget.Holo.Light.ListView.DropDown" >
                     <item name="android:dividerHeight">
@@ -205,6 +314,49 @@
 @color/theme_green_color
                     </item>
                 </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/values/attrs.xml"
+                qualifiers="" >
+                <declare-styleable name="Card" >
+                    <attr
+                        name="primary_text"
+                        format="string" />
+                    <attr
+                        name="image"
+                        format="reference" />
+                    <attr
+                        name="secondary_text"
+                        format="string" />
+                    <attr
+                        name="background_with_shadow"
+                        format="boolean" />
+                    <attr
+                        name="swiped_out_threshold"
+                        format="float" />
+                    <attr
+                        name="reset_duration"
+                        format="integer" />
+                    <attr
+                        name="gone_duration"
+                        format="integer" />
+                    <attr
+                        name="move_up_duration"
+                        format="integer" />
+                    <attr
+                        name="next_card"
+                        format="reference" />
+                    <attr
+                        name="swippable"
+                        format="boolean" />
+                </declare-styleable>
             </file>
             <file
                 path="/home/jason/android-studio/VOKProject/VOK/src/main/res/values/strings.xml"
@@ -250,22 +402,24 @@ News
 
                 <string name="kenyan_tv" >Kenyan TV
                 </string>
+                <string name="default_text" >...
+                </string>
                 <string name="drawer_opened_description" >Drawer Opened
                 </string>
                 <string name="app_name" >VOK
                 </string>
                 <string name="channel_schedules" >Channel Schedules
                 </string>
-                <string name="action_search" >Search
-                </string>
                 <string name="my_programs" >My Programs
+                </string>
+                <string name="action_search" >Search
                 </string>
                 <string name="hello_world" >Hello world!
                 </string>
 
                 <array name="parent_features" >
                     <item>
-Kenyan TV
+Discover
                     </item>
                     <item>
 My Programs
@@ -297,31 +451,6 @@ Channel Schedules
                 path="/home/jason/android-studio/VOKProject/VOK/src/main/res/menu/recommended_programs.xml"
                 qualifiers=""
                 type="menu" />
-            <file
-                name="vok_spinner_item"
-                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/layout/vok_spinner_item.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="vok_spinner_selected_item"
-                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/layout/vok_spinner_selected_item.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="fragment_recommended"
-                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/layout/fragment_recommended.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="fragment_new"
-                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/layout/fragment_new.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="fragment_trending"
-                path="/home/jason/android-studio/VOKProject/VOK/src/main/res/layout/fragment_trending.xml"
-                qualifiers=""
-                type="layout" />
         </source>
         <source path="/home/jason/android-studio/VOKProject/VOK/build/res/rs/debug" />
     </dataSet>

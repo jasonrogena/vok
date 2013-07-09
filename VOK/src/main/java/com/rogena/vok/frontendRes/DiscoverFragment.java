@@ -14,9 +14,9 @@ import com.rogena.vok.R;
 /**
  * Created by jason on 6/23/13.
  */
-public class KenyanTVFragment extends Fragment
+public class DiscoverFragment extends Fragment
 {
-    public static final String NAME="Kenyan TV";
+    public static final String NAME="Discover";
     private ViewPager viewPager;
     private View mainView;
     /*
@@ -26,7 +26,7 @@ public class KenyanTVFragment extends Fragment
     public View onCreateView(LayoutInflater layoutInflater, ViewGroup container, Bundle savedInstanceState)//called when the fragment should create its UI
     {
         super.onCreateView(layoutInflater,container,savedInstanceState);
-        View view=layoutInflater.inflate(R.layout.fragment_kenyan_tv,container,false);
+        View view=layoutInflater.inflate(R.layout.fragment_discover,container,false);
         mainView=view;
         return view;
     }

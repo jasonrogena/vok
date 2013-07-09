@@ -15,7 +15,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.SpinnerAdapter;
 
-import com.rogena.vok.frontendRes.KenyanTVFragment;
+import com.rogena.vok.frontendRes.DiscoverFragment;
 import com.rogena.vok.frontendRes.MyProgramsFragment;
 import com.rogena.vok.frontendRes.VOKArrayAdapter;
 
@@ -26,7 +26,7 @@ public class LandingActivity extends FragmentActivity implements ListView.OnItem
     private String[] parentFeatures;
     private DrawerLayout drawerLayout;
     private ActionBarDrawerToggle actionBarDrawerToggle;
-    private String currentFragment=KenyanTVFragment.NAME;
+    private String currentFragment= DiscoverFragment.NAME;
     private SpinnerAdapter genreFilter;
     private SpinnerAdapter stationFilter;
 
@@ -38,7 +38,7 @@ public class LandingActivity extends FragmentActivity implements ListView.OnItem
 
         if(savedInstanceState==null)//only run if this is the first time
         {
-            initKenyaTVFragment(false);
+            initDiscoverFragment(false);
         }
 
         getActionBar().setTitle("");
@@ -130,11 +130,11 @@ public class LandingActivity extends FragmentActivity implements ListView.OnItem
 
         if(parent==drawerList)
         {
-            if(position==0)//kenyan tv
+            if(position==0)//discover
             {
-                if(!currentFragment.equals(KenyanTVFragment.NAME))
+                if(!currentFragment.equals(DiscoverFragment.NAME))
                 {
-                    initKenyaTVFragment(true);
+                    initDiscoverFragment(true);
                 }
 
             }
@@ -153,19 +153,19 @@ public class LandingActivity extends FragmentActivity implements ListView.OnItem
         }
     }
 
-    private void initKenyaTVFragment(boolean isReplacing)
+    private void initDiscoverFragment(boolean isReplacing)
     {
-        KenyanTVFragment kenyanTVFragment=new KenyanTVFragment();
-        currentFragment=kenyanTVFragment.NAME;
+        DiscoverFragment discoverFragment=new DiscoverFragment();
+        currentFragment=discoverFragment.NAME;
         genreFilter=new VOKArrayAdapter(this,R.layout.vok_spinner_item,getResources().getStringArray(R.array.genres),currentFragment);
         stationFilter=new VOKArrayAdapter(this,R.layout.vok_spinner_item,getResources().getStringArray(R.array.stations),currentFragment);
         if(isReplacing)
         {
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,kenyanTVFragment).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,discoverFragment).commit();
         }
         else
         {
-            getSupportFragmentManager().beginTransaction().add(R.id.fragment_container,kenyanTVFragment).commit();
+            getSupportFragmentManager().beginTransaction().add(R.id.fragment_container,discoverFragment).commit();
         }
         getActionBar().setListNavigationCallbacks(genreFilter,this);
     }

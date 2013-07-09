@@ -6,4 +6,6 @@
     <color name="actionbar_text_color">#e6ebe6</color>
     <color name="drawer_background_color">#ffffff</color>
     <color name="transparent">#00000000</color>
+    <color name="card_text_layout_color">#ffffff</color>
+    <color name="secondary_card_text_color">#3c3f41</color>
 </resources>

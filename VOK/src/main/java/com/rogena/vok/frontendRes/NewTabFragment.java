@@ -13,7 +13,7 @@ import com.rogena.vok.R;
  */
 public class NewTabFragment extends Fragment
 {
-    public static final String TITLE="Featured";
+    public static final String TITLE="New";
     public static final int POSITION=0;
     @Override
     public View onCreateView(LayoutInflater layoutInflater, ViewGroup container, Bundle savedInstanceState)//called when the fragment should create its UI

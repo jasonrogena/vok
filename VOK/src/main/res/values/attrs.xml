@@ -1,0 +1,14 @@
+<resources>
+    <declare-styleable name="Card">
+        <attr name="primary_text" format="string"/>
+        <attr name="image" format="reference"/>
+        <attr name="secondary_text" format="string"/>
+        <attr name="background_with_shadow" format="boolean"/>
+        <attr name="swiped_out_threshold" format="float"/>
+        <attr name="reset_duration" format="integer"/>
+        <attr name="gone_duration" format="integer"/>
+        <attr name="move_up_duration" format="integer"/>
+        <attr name="next_card" format="reference"/>
+        <attr name="swippable" format="boolean"/>
+    </declare-styleable>
+</resources>

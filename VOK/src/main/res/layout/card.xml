@@ -1,0 +1,45 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/cardParentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/card_side_margin"
+        android:layout_marginRight="@dimen/card_side_margin"
+        android:focusable="true">
+    <ImageView
+            android:id="@+id/cardImageView"
+            android:layout_height="@dimen/card_image_height"
+            android:layout_width="match_parent"
+            android:scaleType="center"/>
+    <LinearLayout
+            android:id="@+id/cardTextLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/card_text_layout_color">
+        <TextView
+                android:id="@+id/cardPrimaryTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:layout_marginTop="@dimen/card_primary_text_top_margin"
+                android:layout_marginLeft="@dimen/card_primary_text_left_margin"
+                android:textColor="@color/normal_text_color"
+                android:textSize="@dimen/card_primary_text_size"
+                android:text="@string/default_text"/>
+        <TextView
+                android:id="@+id/cardSecondaryTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:layout_marginTop="@dimen/card_secondary_text_top_margin"
+                android:layout_marginLeft="@dimen/card_secondary_text_left_margin"
+                android:layout_marginBottom="@dimen/card_secondary_text_bottom_margin"
+                android:textColor="@color/secondary_card_text_color"
+                android:textSize="@dimen/card_secondary_text_size"
+                android:text="@string/default_text"/>
+
+    </LinearLayout>
+
+</LinearLayout>

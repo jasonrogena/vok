@@ -1,11 +1,25 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent">
-    <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="Recommended Programs"
-            android:textSize="30dp"/>
-
-</LinearLayout>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/app_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        <com.rogena.vok.customViews.Card
+                android:id="@+id/jasonCard"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                custom:background_with_shadow="true"
+                custom:image="@drawable/cheche"
+                custom:primary_text="Cheche"
+                custom:secondary_text="on Citizen TV"
+                custom:swiped_out_threshold="0.4"
+                custom:reset_duration="200"
+                custom:gone_duration="400"
+                custom:move_up_duration="2000"/>
+    </LinearLayout>
+</ScrollView>

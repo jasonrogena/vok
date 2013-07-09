@@ -6,4 +6,18 @@
     <dimen name="action_bar_title_text_size">18dp</dimen>
     <dimen name="action_bar_sub_title_text_size">13dp</dimen>
     <dimen name="divider_height">0.1dp</dimen>
+    <string name="big_card_relative_width">0.8</string>
+    <string name="big_card_relative_height">0.7</string>
+    <string name="big_card_image_relative_height">0.65</string>
+    <dimen name="card_side_margin">15dp</dimen>
+    <dimen name="card_top_margin">15dp</dimen>
+    <dimen name="card_image_height">120dp</dimen>
+    <dimen name="card_text_layout_height">40dp</dimen>
+    <dimen name="card_primary_text_size">16dp</dimen>
+    <dimen name="card_primary_text_top_margin">6dp</dimen>
+    <dimen name="card_primary_text_left_margin">15dp</dimen>
+    <dimen name="card_secondary_text_size">14dp</dimen>
+    <dimen name="card_secondary_text_top_margin">3dp</dimen>
+    <dimen name="card_secondary_text_bottom_margin">8dp</dimen>
+    <dimen name="card_secondary_text_left_margin">15dp</dimen>
 </resources>
