@@ -30,7 +30,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cfef2eb-ac27-4bd8-82ad-eb48ad222772" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/vok_.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/backendRes/DatabaseHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/backendRes/Genre.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/backendRes/Program.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/backendRes/Station.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="VOK.iws" />
@@ -124,18 +127,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fragment_trending.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VOK/src/main/res/layout/fragment_trending.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="49" selection-start="203" selection-end="203" vertical-scroll-proportion="-1.5517242" vertical-offset="0" max-vertical-offset="255">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="card.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/VOK/src/main/res/layout/card.xml">
           <provider editor-type-id="android-designer">
@@ -157,10 +148,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Card.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Card.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/customViews/Card.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="43" selection-start="567" selection-end="567" vertical-scroll-proportion="-10.827411" vertical-offset="6639" max-vertical-offset="7230">
+            <state line="468" column="0" selection-start="14995" selection-end="14995" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7230">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Program.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/backendRes/Program.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="33" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseHelper.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/backendRes/DatabaseHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="52" selection-start="428" selection-end="428" vertical-scroll-proportion="0.38927335" vertical-offset="0" max-vertical-offset="585">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Station.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/backendRes/Station.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="59" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Genre.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/backendRes/Genre.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="43" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
               <folding />
             </state>
           </provider>
@@ -173,15 +204,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="attrs.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VOK/src/main/res/values/attrs.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="62" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -235,10 +257,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/VOK/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/VOK/src/main/java/com/rogena/customViews/Card.java" />
-        <option value="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/com/rogena/vok/customViews/Card.java" />
-        <option value="$PROJECT_DIR$/VOK/src/main/res/values/attrs.xml" />
         <option value="$PROJECT_DIR$/VOK/src/main/res/drawable-xhdpi/app_background" />
         <option value="$PROJECT_DIR$/VOK/src/main/res/layout/fragment_my_programs.xml" />
         <option value="$PROJECT_DIR$/VOK/src/main/res/values/styles.xml" />
@@ -251,6 +269,10 @@
         <option value="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/frontendRes/RecommendedTabFragment.java" />
         <option value="$PROJECT_DIR$/VOK/src/main/res/layout/card.xml" />
         <option value="$PROJECT_DIR$/VOK/src/main/res/layout/fragment_recommended.xml" />
+        <option value="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/backendRes/Genre.java" />
+        <option value="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/backendRes/Program.java" />
+        <option value="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/backendRes/Station.java" />
+        <option value="$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/backendRes/DatabaseHelper.java" />
       </list>
     </option>
   </component>
@@ -664,6 +686,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VOK" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VOKProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VOK" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vok" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backendRes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -908,7 +964,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32978722" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.24012157" sideWeight="0.68599033" order="0" side_tool="false" content_ui="combo" x="465" y="72" width="436" height="621" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.2993921" sideWeight="0.68599033" order="0" side_tool="false" content_ui="combo" x="465" y="72" width="436" height="621" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.31400967" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1006,33 +1062,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/drawable-xhdpi/app_background.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="31" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/drawable-xhdpi/card_background.9.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/drawable-xhdpi/card_background_shadow.9.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VOK/src/main/res/layout/fragment_trending.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="49" selection-start="203" selection-end="203" vertical-scroll-proportion="-1.5517242" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/VOK/src/main/res/drawable-hdpi/drawer_shadow.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1118,8 +1147,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/customViews/Card.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="43" selection-start="567" selection-end="567" vertical-scroll-proportion="-10.827411" vertical-offset="6639" max-vertical-offset="7230">
+        <state line="468" column="0" selection-start="14995" selection-end="14995" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7230">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/backendRes/Genre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="43" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/backendRes/Station.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="59" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/backendRes/Program.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="33" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VOK/src/main/java/com/rogena/vok/backendRes/DatabaseHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="52" selection-start="428" selection-end="428" vertical-scroll-proportion="0.38927335" vertical-offset="0" max-vertical-offset="585">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
