@@ -2,6 +2,7 @@ package com.rogena.vok.customViews;
 
 import android.content.Context;
 import android.content.res.TypedArray;
+import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.util.DisplayMetrics;
@@ -153,6 +154,20 @@ public class Card extends LinearLayout
     public void setImage(Drawable imageDrawable)
     {
         cardImageView.setImageDrawable(imageDrawable);
+    }
+
+    public void setImageBitmap(Bitmap bitmap)
+    {
+        cardImageView.setImageBitmap(bitmap);
+    }
+
+    public boolean isCardImageSet()
+    {
+        if(cardImageView.getDrawable()!=null)
+        {
+            return true;
+        }
+        return false;
     }
 
     private void setBackgroundWithShadow(boolean backgroundWithShadow)

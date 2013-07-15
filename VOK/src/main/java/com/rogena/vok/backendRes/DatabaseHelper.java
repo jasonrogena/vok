@@ -14,15 +14,15 @@ public class DatabaseHelper extends SQLiteOpenHelper
 {
     public static final String DB_NAME="vok";
 
-    public DatabaseHelper(Context context)
+    public DatabaseHelper(Context context, int databaseVersion)
     {
         //TODO: remember to fetch the database version from the shared preferences
-        super(context,DB_NAME,null,1);
+        super(context,DB_NAME,null,databaseVersion);
     }
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase)
     {
-        sqLiteDatabase.execSQL("CREATE TABLE "+Program.TABLE_NAME+" ("+Program.ID+" INTEGER PRIMARY KEY, "+Program.GENRE_ID+" INTEGER, "+Program.NAME+" TEXT, "+Program.START_DATE+" TEXT, "+Program.STATION_ID+" INTEGER, "+Program.DATE_ADDED_M+" INTEGER);");
+        sqLiteDatabase.execSQL("CREATE TABLE "+Program.TABLE_NAME+" ("+Program.ID+" INTEGER PRIMARY KEY, "+Program.GENRE_ID+" INTEGER, "+Program.NAME+" TEXT, "+Program.START_DATE+" TEXT, "+Program.STATION_ID+" INTEGER, "+Program.IMAGE_URL+" TEXT, "+Program.DATE_ADDED_M+" INTEGER);");
         sqLiteDatabase.execSQL("CREATE TABLE "+Station.TABLE_NAME+" ("+Station.ID+" INTEGER PRIMARY KEY, "+Station.NAME+" TEXT, "+Station.DATE_ADDED_M+" INTEGER);");
         sqLiteDatabase.execSQL("CREATE TABLE "+Genre.TABLE_NAME+" ("+Genre.ID+" INTEGER PRIMARY KEY, "+Genre.NAME+" TEXT, "+Genre.DATE_ADDED_M+" INTEGER);");
     }
@@ -68,9 +68,9 @@ public class DatabaseHelper extends SQLiteOpenHelper
         }
     }
 
-    public void runDeleteQuery(SQLiteDatabase db, String table, String _id)
+    public void runDeleteQuery(SQLiteDatabase db, String table,String whereClause, String[] whereArgs)
     {
-        db.delete(table, "_id=?", new String[]{_id});
+        db.delete(table, whereClause, whereArgs);
     }
 
     public void runInsertQuery(String table,String[] columns,String[] values,SQLiteDatabase db)
@@ -86,6 +86,21 @@ public class DatabaseHelper extends SQLiteOpenHelper
             }
             db.insert(table, null, cv);
             cv.clear();
+        }
+    }
+
+    public void runUpdateQuery(SQLiteDatabase db, String table, String[] columns, String[] values, String whereClause, String[] whereArgs)
+    {
+        if(columns.length==values.length)
+        {
+            ContentValues cv=new ContentValues();
+            int count=0;
+            while(count<columns.length)
+            {
+                cv.put(columns[count],values[count]);
+                count++;
+            }
+            db.update(table,cv,whereClause,whereArgs);
         }
     }
 
