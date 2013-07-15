@@ -42,7 +42,10 @@ public class ProgramCard extends Card
         //TODO: check when card is in focus so as to start fetching image. picture should only be fetched once
         if(isCardImageSet()==false)
         {
-            fetcher.
+            if(fetcher.getStatus()!=AsyncTask.Status.RUNNING)
+            {
+                fetcher.execute(0);
+            }
         }
     }
 
